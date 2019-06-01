@@ -19,7 +19,7 @@ public class WebAppConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         // 自定义拦截器，添加拦截路径
-        registry.addInterceptor(new RequestInterceptor()).addPathPatterns("/**");
+        //registry.addInterceptor(new RequestInterceptor()).addPathPatterns("/**");
         //super.addInterceptors(registry);
     }
 }
